@@ -142,4 +142,44 @@ section
     justify-content: space-evenly;
     align-items: center;
 }
-
+/* adress and timing css */
+.adress-element h3
+{
+    color: #070211;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.adress-element .highlight-point
+{
+    color: #F00;
+}
+.adress-element
+{
+    text-align: center;
+}
+.adress-element .btn-primary
+{
+     margin-top: 80px;
+}
+.adress-element .btn-primary span
+{
+    padding: 16px 32px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.adress-container
+{
+    height: 480px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* BEST OFFER CSS */
