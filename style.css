@@ -151,7 +151,7 @@ section
     font-weight: 600;
     margin-bottom: 10px;
 }
-.adress-element .highlight-point
+.highlight-point
 {
     color: #F00;
 }
@@ -181,5 +181,177 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 /* BEST OFFER CSS */
+.best_offer-container h6
+{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 100px;
+}
+.best_offer-container h1
+{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.best_offer-container p
+{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 390px;
+}
+.circel_img
+{
+    width: 391px;
+    height: 391px;
+    border:36px solid #F00;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circek_img-container
+{
+    width:80%;
+}
+.offer_wish h2
+{
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    margin-top: 100px;
+}
+.offer_wish p
+{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    margin-bottom: 43px; 
+}
+.offer_wish .wish-img 
+{
+    width: 140px;
+}
+.best_offer-container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 464px;
+}
+/* sale offer section */
+.sale h6
+{
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.sale h1
+{
+    color:  #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.sale p
+{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    padding: 20px 100px;
+}
+.sale
+{
+    text-align: center;
+}
+/* sale offer img background section */
+.sale_offer-img
+{
+    width: 600px;
+    position: relative;
+    height: 434px;
+    float: right;
+}
+.sale_offer-img img:nth-child(1)
+{
+    width: 430px;
+    float: right;
+}
+.sale_offer-img img:nth-child(2)
+{
+    width:280px;
+    position: absolute;
+    bottom: 50px;
+    left: 15px;
+}
+.ground-item 
+{
+    position: relative;
+}
+.ground-item img:nth-child(1)
+{
+    width: 600px;
+    position: absolute;
+    bottom: 54px;
+    margin-left: 71px;
+    z-index: 1;
+}
+.sale_offer
+{
+    margin-top: 44px;
+}
+/* portfolio css */
+.portfolio-header_title h6
+{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.portfolio-header_title h1
+{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.portfolio-header_title p
+{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px; 
+    width: 896px;
+}
+.portfloio_card
+{
+    width: 424px;
+    height: 450px;
+}
+.portfolio-container
+{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:2em;
+    padding-top: 50px;
+}
