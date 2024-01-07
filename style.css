@@ -352,6 +352,6 @@ section
 { 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap:2em;
+    grid-gap:1gitem;
     padding-top: 50px;
 }
