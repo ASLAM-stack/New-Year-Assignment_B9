@@ -21,7 +21,19 @@ section
 {
     margin: 100px 0;
 }
-
+/* bug fix  */
+.adress-element .highlight-point{
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.sale .highlight-point
+{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
 /* header css */
 .header_container
 {
