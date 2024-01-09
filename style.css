@@ -175,6 +175,7 @@ section
 .adress-element .btn-primary
 {
      margin-top: 80px;
+     cursor: pointer;
 }
 .adress-element .btn-primary span
 {
@@ -425,6 +426,7 @@ section
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
     
 }
 
